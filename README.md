@@ -16,7 +16,7 @@ This is an opinionated starting point for full-stack, type-safe Nuxt apps.
 
 This template adds a `v-test` directive to make it easier to target elements in your unit tests, and to encourage targeting elements with testIds, which improves the resilience of our tests. For further reading, check out this [article by Kent C. Dodds](https://kentcdodds.com/blog/making-your-ui-tests-resilient-to-change).
 
-You can use teh `v-test` directive in the following way:
+You can use the `v-test` directive in the following way:
 
 ```vue
 <ul>
