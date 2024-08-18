@@ -3,10 +3,12 @@ import { defineVitestConfig } from '@nuxt/test-utils/config';
 export default defineVitestConfig({
     test: {
         environment: 'jsdom',
-        reporters: ['html'],
+        reporters: ['html', 'verbose'],
         coverage: {
             enabled: true,
-            exclude: ['node_modules', '.nuxt', 'dist', 'html'],
+            include: ['**/src/components/**'],
+            allowExternal: true,
         },
+        setupFiles: ['./tests/setup.ts'],
     },
 });
