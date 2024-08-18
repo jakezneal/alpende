@@ -5,6 +5,7 @@ This is an opinionated starting point for full-stack, type-safe Nuxt apps.
 ## ✨ Features
 
 -   ⛰️ [Nuxt](https://nuxt.com/)
+-   🅿️ [Prettier](https://prettier.io/)
 -   ⚙️ [T3 Env](https://env.t3.gg/) — Type-safe environment variables
 -   🧪 Testing
     -   [Vitest](https://vitest.dev/)
@@ -41,4 +42,48 @@ e.g.
 
 ```bash
 pnpm make:component src/components/ui/AppLogo
+```
+
+## 🗣️ Commands
+
+### 👷 Build
+
+```bash
+pnpm build
+```
+
+### 🚀 Dev
+
+```bash
+pnpm dev
+```
+
+### 🪄 Format
+
+```bash
+pnpm format
+```
+
+### 🧪 Test
+
+```bash
+pnpm test
+```
+
+To generate a coverage report:
+
+```bash
+pnpm test:coverage
+```
+
+To run Vitest UI:
+
+```bash
+pnpm test:ui
+```
+
+### 📖 Storybook
+
+```bash
+pnpm storybook
 ```
