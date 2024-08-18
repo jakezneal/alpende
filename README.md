@@ -11,6 +11,7 @@ This is an opinionated starting point for full-stack, type-safe Nuxt apps.
     -   [Vue Testing Library](https://testing-library.com/docs/vue-testing-library/)
     -   [Vue Test Utils](https://vue-test-utils.vuejs.org/)
     -   [Nuxt Test Utils](https://nuxt.com/docs/getting-started/testing)
+-   📖 [Storybook](https://storybook.js.org/)
 
 ## 🧪 Testing
 
@@ -24,4 +25,20 @@ You can use the `v-test` directive in the following way:
     <li v-test:testableListItem>My testable element</li>
     <li>Another item I don't want to test</li>
 </ul>
+```
+
+## 🪄 Component generation
+
+This template includes a CLI for generating components. This outputs a `.vue`, `.spec.ts`, and a `.stories.ts` file for each component in the given path.
+
+Generating a component:
+
+```bash
+pnpm make:component <path>
+```
+
+e.g.
+
+```bash
+pnpm make:component src/components/ui/AppLogo
 ```
