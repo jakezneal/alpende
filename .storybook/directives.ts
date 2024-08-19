@@ -1,4 +1,4 @@
-import test from '../src/directives/test.ts';
+import test from '../src/directives/test';
 import { createApp } from 'vue';
 
 const app = createApp({});
