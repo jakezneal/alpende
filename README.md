@@ -34,6 +34,7 @@ You can update the frequency of the GitHub Action by updating `.github/workflows
     -   [Nuxt Test Utils](https://nuxt.com/docs/getting-started/testing)
 -   📖 [Storybook](https://storybook.js.org/)
 -   🍃 [Tailwind CSS](https://tailwindcss.com/)
+-   🍍 [Pinia](https://pinia.vuejs.org/)
 
 ## 🧪 Testing
 
