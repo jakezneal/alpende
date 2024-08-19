@@ -2,6 +2,25 @@
 
 This is an opinionated starting point for full-stack, type-safe Nuxt apps.
 
+## 🚀 Getting started
+
+There are two ways to get started with this template:
+
+-   [Use this template](https://github.com/new?template_name=alpende&template_owner=jakezneal) to create a new project
+-   Initialise a new Nuxt project with this template:
+
+```bash
+pnpm dlx nuxi@latest init -t https://codeload.github.com/jakezneal/alpende/tar.gz/refs/heads/main <project-name>
+```
+
+## 🔄 Updating
+
+This template contains a GitHub Action that will periodically check for updates in this template and create a PR in your repository if there are any updates.
+
+If you want to ignore specific files or folders from being updated, you can create a `.github/.templatesyncignore` file, which is similar to `.gitignore`. I'd recommend ignoring the GitHub workflows folder as this will cause issues with the GitHub Action.
+
+You can update the frequency of the GitHub Action by updating `.github/workflows/template_sync.yml`, or removing it completely if you don't want to keep up to date with this template.
+
 ## ✨ Features
 
 -   ⛰️ [Nuxt](https://nuxt.com/)
