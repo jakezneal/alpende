@@ -10,6 +10,7 @@ This is an opinionated starting point for full-stack, type-safe Nuxt apps.
 -   🧪 Testing
     -   [Vitest](https://vitest.dev/)
     -   [Vue Testing Library](https://testing-library.com/docs/vue-testing-library/)
+    -   [Testing Library Selector](https://github.com/domasx2/testing-library-selector/)
     -   [Vue Test Utils](https://vue-test-utils.vuejs.org/)
     -   [Nuxt Test Utils](https://nuxt.com/docs/getting-started/testing)
 -   📖 [Storybook](https://storybook.js.org/)
